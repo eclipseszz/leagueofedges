@@ -1,0 +1,21 @@
+#div_Champions{
+	text-align: center;
+	position: center;
+}
+#div_Champions form{
+	text-align: center;
+	position: center;
+	width: 100%;
+}
+#div_Champions form input{
+	text-align: relative;
+	position: relative;
+}
+#div_Champions table{
+
+	position: center;
+	text-align: center;
+	margin-left: 45%;
+	margin-top: 10px;
+}
+

@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #B5B5B5;
+	color: #333;
+}
+
+#div_Container {
+	margin: 0 auto;
+	width: 900px;
+	height: auto;
+}
+
+#div_Container #div_Topo {
+	float: left;
+	width: 100%;
+	height: 120px;
+	background: #A8A8A8;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#div_Container #div_Topo #imageTOPO {
+	margin-top: 30px;
+}
+
+#div_Container #div_Menu {
+	float: left;
+	width: 100%;
+	height: 35px;
+	background: #333;
+	text-align: center;
+	font-family: Arial;
+}
+
+#div_Container #div_Menu ul {
+	margin: 10px;
+}	
+
+#div_Container #div_Menu ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#div_Container #div_Menu ul li a {
+	text-decoration: none;
+	color: #CCC;
+	padding: 10px;
+}
+
+#div_Container #div_Menu ul li a:hover {
+	color: #FFF;
+}
+
+#div_Container #div_Construcao {
+	
+	float: left;
+	background: #DEDEDE;
+	position: relative;
+    width: 100%;
+	text-align: center;
+}
+
+#div_Container #div_Construcao h1{
+	
+	margin-top: 50px;
+	background: #DEDEDE;
+	font-size: 50px;
+	
+}
+
+#div_Container #div_Conteudo {
+	float: left;
+	width: 100%;
+	background: #DEDEDE;
+	height: auto;
+}
+
+#div_Container #div_Rodape {
+	float: left;
+	width: 100%;
+	height: 45px;
+	background: #A8A8A8;
+	border-bottom: 1px solid #000;
+}
+
+#div_Container #div_Rodape span {
+	float: left;
+	font-size: 14px;
+	padding-top: 16px;
+	padding-left: 300px;
+}
+
+#div_Container #div_Conteudo #div_Registro {
+	margin: 0 auto;
+	width: 900px;
+	height: auto;
+}
+
+#div_Container #div_Conteudo #div_Registro #login {
+	margin: 5% auto;
+	width: 500px;
+	height: 230px;
+	background: #CCC;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#div_Container #div_Conteudo #div_Registro #login form {
+	display: block;
+}
+
+#div_Container #div_Conteudo #div_Registro #login form #input {
+	position: relative;
+	top: -165px;
+	left: 240px;
+}
+
+#div_Container #div_Conteudo #div_Registro #login form #input input[type="text"] {
+	outline: none;
+	display: block;
+	width: 200px;
+	height: 25px;
+	border-radius: 10px;
+	border: #000 solid 1px;
+}
+
+#div_Container #div_Conteudo #div_Registro #login form #input input[type="password"] {
+	outline: none;
+	display: block;
+	width: 200px;
+	height: 25px;
+	border-radius: 10px;
+	border: #000 solid 1px;
+}
+
+#div_Container #div_Conteudo #div_Registro #login form #input input[type="submit"] {
+	outline: none;
+	margin-top: 13px;
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	border: #000 solid 1px;
+	background: #D3D4D2;
+}
+

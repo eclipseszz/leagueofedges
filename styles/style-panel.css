@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #B5B5B5;
+	color: #333;
+}
+
+#div_Container {
+	margin: 0 auto;
+	width: 900px;
+	height: auto;
+}
+
+#div_Container #div_Topo {
+	float: left;
+	width: 100%;
+	height: 120px;
+	background: #A8A8A8;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#div_Container #div_Topo #imageTOPO {
+	margin-top: 30px;
+}
+
+#div_Container #div_Menu {
+	float: left;
+	width: 100%;
+	height: 35px;
+	background: #333;
+	text-align: center;
+	font-family: Arial;
+}
+
+#div_Container #div_Menu ul {
+	margin: 10px;
+}	
+
+#div_Container #div_Menu ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#div_Container #div_Menu ul li a {
+	text-decoration: none;
+	color: #CCC;
+	padding: 10px;
+}
+
+#div_Container #div_Menu ul li a:hover {
+	color: #FFF;
+}
+
+#div_Container #div_Conteudo {
+	float: left;
+	width: 100%;
+	background: #DEDEDE;
+	height: auto;
+}
+ 
+#form_Usuario {
+	float: left;
+	width: 250px;
+	height: auto;
+	background: #CCC;
+	padding: 40px;
+	margin-top: 30px;
+	margin-left: 300px;
+	font-size: 14px;
+	font-family: Verdana;
+}
+
+#form_Usuario input[type="text"] { 
+	width: 240px;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+#form_Usuario input[type="submit"] { 
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #EBEBEB;
+	margin-left: 70px;
+}
+
+#form_Postagem {
+	float: left;
+	width: auto;
+	height: auto;
+	background: #CCC;
+	padding: 40px;
+	margin-top: 30px;
+	margin-left: 300px;
+	font-size: 14px;
+	font-family: Verdana
+}
+
+#form_Postagem input[type="text"], input[type="password"] { 
+	width: 240px;
+	height: auto;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+#form_Postagem textarea {
+	width: 240px;
+	height: 100px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+	resize: none;
+}
+
+#form_Postagem input[type="submit"] { 
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #EBEBEB;
+	margin-left: 70px;
+}
+
+#div_Container #div_Rodape {
+	float: left;
+	width: 100%;
+	height: 45px;
+	background: #A8A8A8;
+	border-bottom: 1px solid #000;
+}
+
+#div_Container #div_Rodape span {
+	float: left;
+	font-size: 14px;
+	padding-top: 16px;
+	padding-left: 300px;
+}
+
+#div_Usuario {
+	float: left;
+	width: 250px;
+	height: auto;
+	background: #CCC;
+	padding: 40px;
+	margin-top: 30px;
+	margin-left: 300px;
+	font-size: 14px;
+	font-family: Verdana
+}
+
+#div_Usuario input[type="text"], input[type="password"] { 
+	width: 240px;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+#div_Usuario textarea {
+	width: 240px;
+	height: 100px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+	resize: none;
+}
+
+#div_Usuario input[type="submit"] { 
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #EBEBEB;
+	margin-left: 70px;
+}
+
+#div_Container #div_Conteudo h1{
+	font-size: 20px;
+	font-family: Arial;
+}
+
+#div_Postagens h1{
+	colar: 393939;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+#div_Champion {
+	margin-top: 10px;
+}
+
+#div_Champion  table{
+	margin-top: 10px;
+}
+
+#div_Skin {
+	margin-top: 10px;
+}
+
+#div_Skin table{
+	margin-top: 10px;
+}

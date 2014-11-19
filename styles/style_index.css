@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("/images/bg.jpg");
+}
+
+#div_Container{
+	margin: 0 auto;
+	width: 900px;
+	height: auto;
+}
+
+#div_Container #div_Topo {
+
+	border: solid 5px #3b3b3b;
+	width: 110%;
+	position: relative;
+	height: 50px;
+	background: #545454;
+	text-align: center;
+}
+
+#div_Container #div_Menu {
+	
+	border: solid 5px #3b3b3b;
+	width: 110%;
+	height: 35px;
+	background: #333;
+	text-align: center;
+	font-family: Arial;
+}
+
+#div_Container #div_Menu ul {
+
+	text-align: relative;	
+	font-family: Comic Sans MS;
+	margin: 5px;
+}	
+
+#div_Container #div_Menu ul li {
+
+	text-align: relative;
+	list-style-type: none;
+	display: inline;
+}
+
+#div_Container #div_Menu ul li a {
+
+	text-align: relative;
+	text-decoration: none;
+	color: #CCC;
+	padding: 10px;
+}
+
+#div_Container #div_Menu ul li a:hover {
+	color: #FFF;
+}
+
+#div_Container #div_Construcao {
+	
+	border: solid 5px #3b3b3b;
+	float: left;
+	background: #DEDEDE;
+	position: center;
+    width: 110%;
+	text-align: center;
+	font-family: Comic Sans MS;
+}
+
+#div_Container #div_Construcao h1{
+	
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #DEDEDE;
+	font-size: 50px;
+	
+}
+
+#div_Container #div_Conteudo {
+	
+	border-left: solid 5px #3b3b3b;
+	border-right: solid 5px #3b3b3b;
+	float: left;
+	width: 110%;
+	background: #DEDEDE;
+	height: 700px;
+}
+
+#div_Container #div_Conteudo #div_Postagem {
+	
+	float: left;
+	width: 110%;
+	padding: 10px;
+	margin: 10px;
+	text-align: justify;
+	font-family: Arial;
+
+}
+
+#div_Container #div_Conteudo #div_Postagem #div_System {
+
+	width: 110%;
+	text-align: center;
+	width: 85%;
+}
+
+#div_Container #div_Rodape {
+	
+	border: solid 5px #3b3b3b;	
+	font-family: Comic Sans MS;
+	float: left;
+	width: 110%;
+	height: 45px;
+	background: #A8A8A8;
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+#div_Container #div_Rodape span {
+	float: left;
+	font-size: 14px;
+	padding-top: 16px;
+	text-align: center;
+	padding-left: 300px;
+}
